@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.262708ba.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.df32953f.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.df32953f.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
+    "static/js/2.c5f5d2bb.chunk.js": "/react-portfolio/static/js/2.c5f5d2bb.chunk.js",
+    "static/js/2.c5f5d2bb.chunk.js.map": "/react-portfolio/static/js/2.c5f5d2bb.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.025e8d5bd54657564a0a15cff96401d3.js": "/react-portfolio/precache-manifest.025e8d5bd54657564a0a15cff96401d3.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.262708ba.chunk.css.map": "/react-portfolio/static/css/main.262708ba.chunk.css.map",
+    "static/js/2.c5f5d2bb.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.c5f5d2bb.chunk.js.LICENSE.txt",
+    "static/media/about-me.jpg": "/react-portfolio/static/media/about-me.19b652cc.jpg",
+    "static/media/index.css": "/react-portfolio/static/media/weather-dashboard.a12989f2.jpg",
+    "static/media/contact-me.jpg": "/react-portfolio/static/media/contact-me.a029f82f.jpg",
+    "static/media/resume.jpg": "/react-portfolio/static/media/resume.6fa5a225.jpg",
+    "static/media/work.jpg": "/react-portfolio/static/media/work.a7cfca37.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.213b1880.js",
+    "static/js/2.c5f5d2bb.chunk.js",
+    "static/css/main.262708ba.chunk.css",
+    "static/js/main.df32953f.chunk.js"
+  ]
+}
