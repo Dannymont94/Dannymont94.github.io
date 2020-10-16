@@ -11,14 +11,24 @@ function App() {
 
   const [currentTab, setCurrentTab] = useState(tabs[0]);
 
+  function renderPage() {
+    switch (currentTab) {
+      case 'Portfolio':
+        return <Portfolio />;
+      case 'Contact':
+        return <Contact />;
+      case 'Resume':
+        return <Resume />;
+      default:
+        return <About />;
+    }
+  }
+
   return (
     <div>
       <Nav tabs={tabs} currentTab={currentTab} setCurrentTab={setCurrentTab} />
       <main>
-        <About />
-        <Portfolio />
-        <Contact />
-        <Resume />
+        {renderPage()}
       </main>
       <Footer />
     </div>
