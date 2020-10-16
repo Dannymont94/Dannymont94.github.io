@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 function App() {
   const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
@@ -15,6 +16,7 @@ function App() {
       <main>
         <About />
         <Portfolio />
+        <Contact />
       </main>
       <Footer />
     </div>
