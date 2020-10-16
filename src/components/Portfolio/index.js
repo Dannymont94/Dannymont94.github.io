@@ -3,7 +3,10 @@ import React from 'react';
 function Portfolio() {
   return (
     <section id="recent-work">
-      <h2 className="section-title">Recent Work</h2>
+      <div className="left">
+        <h2 className="section-title">Portfolio</h2>
+        <img src={require("../../assets/images/work.jpg")} alt="laptop displaying code on a desk with some succulents" />
+      </div>
       <div className="projects">
         {/* Nomadica Project */}
         <a className="project nomadica" href="https://dj-viking.github.io/Nomadica/">

@@ -39,7 +39,10 @@ function Contact() {
 
   return (
     <section>
-      <h1>Contact me</h1>
+      <div class="left">
+        <h2 class="section-title">Contact Me</h2>
+        <img src={require("../../assets/images/contact-me.jpg")} alt="mailboxes surrounded by dense foliage" />
+      </div>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>

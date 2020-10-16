@@ -7,7 +7,7 @@ function Nav({ tabs, currentTab, setCurrentTab }) {
 
   return(
     <header>
-      <h1>Daniel Monterrosa</h1>
+      <h1 className="name">Daniel Monterrosa</h1>
       <nav>
         <ul>
           {tabs.map((tab, index) => (
