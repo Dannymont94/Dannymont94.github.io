@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 
@@ -15,6 +16,7 @@ function App() {
         <About />
         <Portfolio />
       </main>
+      <Footer />
     </div>
   );
 }
