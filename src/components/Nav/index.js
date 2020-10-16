@@ -15,7 +15,7 @@ function Nav({ tabs, currentTab, setCurrentTab }) {
               <a
                 href={`#${tab.toLowerCase()}`}
                 onClick={() => setCurrentTab(tab)}
-                className={currentTab === tab ? 'nav-link active' : 'active'}
+                className={currentTab === tab ? 'active' : ''}
               >
                 {tab}
               </a>

@@ -12,12 +12,15 @@
   box-sizing: border-box;
 }
 
+html {
+  position: relative;
+  min-height: 100vh;
+}
+
 body {
   background: var(--background);
   color: var(--white);
   font-family: 'Raleway';
-  position: relative;
-  min-height: 100vh;
 }
 
 /* Background image */
@@ -51,8 +54,7 @@ header h1 {
   margin: 0;
 }
 
-header nav ul,
-#contact-me address {
+header nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -80,7 +82,7 @@ main {
 }
 
 section {
-  margin: 80px 0;
+  margin: 60px 0;
   padding: 10px 0;
   display: flex;
   flex-flow: row;
@@ -153,6 +155,7 @@ img {
   background-position: center;
   background-size: cover;
   border-radius: 5px;
+  padding-left: 2%;
 }
 
 /* Showcase first project */
@@ -207,7 +210,7 @@ img {
 
 /* "Contact Me" rules */
 form {
-  width: 40%;
+  width: 600px;
 }
 
 form div {
@@ -216,10 +219,11 @@ form div {
 
 label {
   display: block;
+  font-size: 22px;
 }
 
 input {
-  width: 300px;
+  width: 100%;
   font-size: 1rem;
   padding: 0.25rem;
   border: 2px solid var(--darkgray);
@@ -235,14 +239,15 @@ textarea:focus {
 }
 
 textarea {
-	width: 600px;
+	width: 100%;
 	height: 120px;
 	border: 2px solid var(--darkgray);
-	padding: 5px;
+  padding: 5px;
+  resize: vertical;
 }
 
 button {
-  font-size: 1rem;
+  font-size: 22px;
   text-decoration: none;
   padding: 0.25rem 1rem;
   border-radius: .5rem;
@@ -252,6 +257,7 @@ button {
   margin: 0 1px;
   color: var(--white);
   background-color: var(--purple);
+  width: 100%;
 }
 
 button:hover {
@@ -284,19 +290,59 @@ button:hover {
   display: none;
 }
 
+/* Resume Rules */
+.resume {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.resume p,
+.resume a {
+  font-size: 20px;
+  color: white;
+}
+
+.resume a {
+  padding: 0;
+  text-decoration: underline;
+  position: relative;
+  display: inline;
+}
+
+.resume div {
+  margin-top: 16px;
+}
+
+.resume h2 {
+  font-size: 26px;
+  text-shadow: 2px 2px 1px var(--purple);
+  margin-bottom: 8px;
+}
+
+.resume ul {
+  /* list-style: none; */
+  list-style-position: inside;
+}
+
+.resume li {
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
 /* Footer Rules */
-main {
-  padding-bottom: 2.5 rem;
+body {
+  padding-bottom: 10rem;
 }
 
 footer {
   position: absolute;
   bottom: 0;
-  width: 100%;
-  height: 2.5rem;
   left: 0;
   right: 0;
   margin: 0 auto;
+  width: 100%;
+  height: 10rem;
 }
 
 /* Nav Link Hover Animation */
@@ -324,6 +370,12 @@ nav a:hover:before {
 }
 
 nav a:hover {
+  color: var(--white);
+}
+
+.active {
+  background: var(--purple);
+  opacity: 0.8;
   color: var(--white);
 }
 
@@ -392,8 +444,12 @@ nav a:hover {
       text-align: center;
   }
 
+  section {
+    margin: 25px 0;
+  }
+
   .contact a {
-      font-size: 25px;
+    font-size: 25px;
   }
 }
 
@@ -404,10 +460,6 @@ nav a:hover {
 
   section {
       display: block;
-  }
-
-  #contact-me {
-      margin-bottom: 80px;
   }
 
   .left {
@@ -450,6 +502,10 @@ nav a:hover {
 @media screen and (max-width:720px) {
   .contact a {
       font-size: 25px;
+  }
+
+  form {
+    width: 85vw;
   }
 }
 
@@ -510,20 +566,16 @@ nav a:hover {
 }
 
 @media screen and (max-width:580px) {
-  .left {
-      font-size: 5vw;
-  }
-
   .projects {
       gap: 16px;
   }
-  
-  .big-window {
-      display: none;
+
+  body {
+    padding-bottom: 5rem;
   }
 
-  .small-window {
-      display: flex;
+  footer {
+    height: 5rem;
   }
 }
 

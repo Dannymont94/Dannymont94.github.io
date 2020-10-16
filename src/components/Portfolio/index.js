@@ -6,37 +6,37 @@ function Portfolio() {
       name: 'Minnow',
       class: 'minnow',
       tools: 'Node, Express, Handlebars, MySQL',
-      github: 'https://github.com/Dannymont94/minnow'
+      link: 'https://nameless-river-82781.herokuapp.com/login'
     },
     {
       name: 'Nomadica',
       class: 'nomadica',
       tools: 'HTML, CSS, JS',
-      github: 'https://dj-viking.github.io/Nomadica/'
+      link: 'https://dj-viking.github.io/Nomadica/'
     },
     {
       name: 'Weather Dashboard',
       class: 'weather-dashboard',
       tools: 'HTML, CSS, JS',
-      github: 'https://dannymont94.github.io/weather-dashboard/'
+      link: 'https://dannymont94.github.io/weather-dashboard/'
     },
     {
       name: 'Gaming Survey',
       class: 'gaming-survey',
       tools: 'HTML/CSS',
-      github: 'https://dannymont94.github.io/gaming-survey/'
+      link: 'https://dannymont94.github.io/gaming-survey/'
     },
     {
       name: 'Pizza Hunt',
       class: 'pizza-hunt',
       tools: 'MongoDB, Express, Node',
-      github: 'https://github.com/Dannymont94/pizza-hunt'
+      link: 'https://sheltered-shelf-68669.herokuapp.com/'
     },
     {
       name: 'Code Quiz',
       class: 'code-quiz',
       tools: 'HTML, CSS, JS',
-      github: 'https://dannymont94.github.io/code-quiz/'
+      link: 'https://dannymont94.github.io/code-quiz/'
     },
   ]
 
@@ -48,7 +48,7 @@ function Portfolio() {
       </div>
       <div className="projects">
         {projects.map((project, index) => (
-          <a className={`project ${project.class}`} href={project.github} key={index}>
+          <a className={`project ${project.class}`} href={project.link} key={index}>
             <div className="project-description">
               <h3 className="project-name">{project.name}</h3>
               <p className="project-tools">{project.tools}</p>
