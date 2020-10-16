@@ -39,8 +39,8 @@ function Contact() {
 
   return (
     <section>
-      <div class="left">
-        <h2 class="section-title">Contact Me</h2>
+      <div className="left">
+        <h2 className="section-title">Contact Me</h2>
         <img src={require("../../assets/images/contact-me.jpg")} alt="mailboxes surrounded by dense foliage" />
       </div>
       <form id="contact-form" onSubmit={handleSubmit}>
@@ -58,7 +58,7 @@ function Contact() {
         </div>
         {errorMessage && (
           <div>
-            <p className="error-text">{errorMessage}</p>
+            <p classNameName="error-text">{errorMessage}</p>
           </div>
         )}
         <button type="submit">Submit</button>

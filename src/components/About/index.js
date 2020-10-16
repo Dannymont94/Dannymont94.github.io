@@ -3,8 +3,8 @@ import React from 'react';
 function About() {
   return (
     <section id="about-me">
-      <div class="left">
-        <h2 class="section-title">About Me</h2>
+      <div className="left">
+        <h2 className="section-title">About Me</h2>
         <img src={require("../../assets/images/about-me.jpg")} alt="Daniel Monterrosa headshot" />
       </div>
       <div className="description">

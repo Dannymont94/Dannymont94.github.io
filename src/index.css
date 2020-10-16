@@ -16,7 +16,10 @@ body {
   background: var(--background);
   color: var(--white);
   font-family: 'Raleway';
+  position: relative;
+  min-height: 100vh;
 }
+
 /* Background image */
 body::before {
   content: "";
@@ -190,12 +193,12 @@ img {
 
 }
 
-.run-buddy {
-  background-image: url(./assets/images/run-buddy.jpg);
+.pizza-hunt {
+  background-image: url(./assets/images/pizza-hunt.jpg);
 }
 
-.horiseon {
-  background-image: url(./assets/images/horiseon-refactor.jpg);
+.minnow {
+  background-image: url(./assets/images/minnow.jpg);
 }
 
 .gaming-survey {
@@ -203,6 +206,58 @@ img {
 }
 
 /* "Contact Me" rules */
+form {
+  width: 40%;
+}
+
+form div {
+  margin-bottom: 8px;
+}
+
+label {
+  display: block;
+}
+
+input {
+  width: 300px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 2px solid var(--darkgray);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus,
+textarea:focus {
+  border: 2px solid var(--purple);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 2px solid var(--darkgray);
+	padding: 5px;
+}
+
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  color: var(--white);
+  background-color: var(--purple);
+}
+
+button:hover {
+  opacity: .8;
+}
+
 .contact-info {
   width: 75%;
   display: flex;
@@ -227,6 +282,21 @@ img {
 
 .small-window {
   display: none;
+}
+
+/* Footer Rules */
+main {
+  padding-bottom: 2.5 rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 /* Nav Link Hover Animation */
