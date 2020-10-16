@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
 
 function App() {
   const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
@@ -10,7 +11,10 @@ function App() {
   return (
     <div>
       <Nav tabs={tabs} currentTab={currentTab} setCurrentTab={setCurrentTab} />
-      <About />
+      <main>
+        <About />
+        <Portfolio />
+      </main>
     </div>
   );
 }
