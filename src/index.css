@@ -191,11 +191,6 @@ img {
   background-image: url(./assets/images/weather-dashboard.jpg);
 }
 
-.code-quiz {
-  background-image: url(./assets/images/code-quiz.jpg);
-
-}
-
 .pizza-hunt {
   background-image: url(./assets/images/pizza-hunt.jpg);
 }
@@ -206,6 +201,10 @@ img {
 
 .gaming-survey {
   background-image: url(./assets/images/gaming-survey.jpg);
+}
+
+.tv-tracker {
+  background-image: url(./assets/images/tv-tracker.jpg);
 }
 
 /* "Contact Me" rules */
@@ -519,11 +518,12 @@ nav a:hover {
   }
 
   section {
-      margin: 40px 0;
+      margin: 20px 0;
   }
 
   .left {
       width: 100%;
+      padding: 0;
   }
 
   .left img {
@@ -572,6 +572,10 @@ nav a:hover {
 
   body {
     padding-bottom: 5rem;
+  }
+
+  .desktop-view {
+    display: none;
   }
 
   footer {

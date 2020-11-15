@@ -3,6 +3,12 @@ import React from 'react';
 function Portfolio() {
   const projects = [
     {
+      name: 'TV Tracker',
+      class: 'tv-tracker',
+      tools: 'MERN Stack',
+      link: 'https://stark-brushlands-99590.herokuapp.com/'
+    },
+    {
       name: 'Minnow',
       class: 'minnow',
       tools: 'Node, Express, Handlebars, MySQL',
@@ -31,13 +37,7 @@ function Portfolio() {
       class: 'pizza-hunt',
       tools: 'MongoDB, Express, Node',
       link: 'https://sheltered-shelf-68669.herokuapp.com/'
-    },
-    {
-      name: 'Code Quiz',
-      class: 'code-quiz',
-      tools: 'HTML, CSS, JS',
-      link: 'https://dannymont94.github.io/code-quiz/'
-    },
+    }
   ]
 
   return (
