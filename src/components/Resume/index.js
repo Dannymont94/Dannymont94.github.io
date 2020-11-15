@@ -8,7 +8,7 @@ function Resume() {
         <img src={require("../../assets/images/resume.jpg")} alt="laptop displaying code on a desk with some succulents" />
       </div>
       <div className="resume">
-        <p>Download my <a href="https://drive.google.com/file/d/1C_Zt594I231-kH2CR9h3fKUMyAtL4vsw/view?usp=sharing">resume</a> here.</p>
+        <p>View/Download my <a href="https://drive.google.com/file/d/1C_Zt594I231-kH2CR9h3fKUMyAtL4vsw/view?usp=sharing">resume</a> here.</p>
         <div>
           <h2>Front-End Proficiencies</h2>
           <ul>
@@ -27,10 +27,12 @@ function Resume() {
           <ul>
             <li>Node</li>
             <li>Express</li>
+            <li>REST APIs</li>
             <li>MySQL</li>
             <li>Sequelize</li>
             <li>MongoDB</li>
             <li>Mongoose</li>
+            <li>GraphQL</li>
           </ul>
         </div>
       </div>
