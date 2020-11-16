@@ -3,11 +3,10 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
 import Resume from './components/Resume';
 
 function App() {
-  const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
+  const tabs = ['About', 'Portfolio', 'Resume'];
 
   const [currentTab, setCurrentTab] = useState(tabs[0]);
 
@@ -15,8 +14,6 @@ function App() {
     switch (currentTab) {
       case 'Portfolio':
         return <Portfolio />;
-      case 'Contact':
-        return <Contact />;
       case 'Resume':
         return <Resume />;
       default:
