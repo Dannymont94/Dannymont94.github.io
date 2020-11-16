@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.f3312d30.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.c0bc4b73.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.c0bc4b73.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.6695b25a.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.3f59decf.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.3f59decf.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
     "static/js/2.087881cd.chunk.js": "/react-portfolio/static/js/2.087881cd.chunk.js",
     "static/js/2.087881cd.chunk.js.map": "/react-portfolio/static/js/2.087881cd.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.beadbad8d97a1ddc436fc3cb1b32b650.js": "/react-portfolio/precache-manifest.beadbad8d97a1ddc436fc3cb1b32b650.js",
+    "precache-manifest.246049fea3b0826947cf75ee423effe3.js": "/react-portfolio/precache-manifest.246049fea3b0826947cf75ee423effe3.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.f3312d30.chunk.css.map": "/react-portfolio/static/css/main.f3312d30.chunk.css.map",
+    "static/css/main.6695b25a.chunk.css.map": "/react-portfolio/static/css/main.6695b25a.chunk.css.map",
     "static/js/2.087881cd.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.087881cd.chunk.js.LICENSE.txt",
     "static/media/about-me.jpg": "/react-portfolio/static/media/about-me.19b652cc.jpg",
     "static/media/index.css": "/react-portfolio/static/media/weather-dashboard.a12989f2.jpg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.213b1880.js",
     "static/js/2.087881cd.chunk.js",
-    "static/css/main.f3312d30.chunk.css",
-    "static/js/main.c0bc4b73.chunk.js"
+    "static/css/main.6695b25a.chunk.css",
+    "static/js/main.3f59decf.chunk.js"
   ]
 }
