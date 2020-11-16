@@ -9,7 +9,7 @@ function About() {
       </div>
       <div className="description">
         <p>
-          Adept Full-Stack Developer based in Orlando, FL with 5 years of business management and sales team leadership experience in both professional and private sectors.
+          Adept Full-Stack Developer based in Orlando, FL with 5 years of business management and sales team leadership experience in both public and private sectors.
         </p>
         <br />
         <p>
