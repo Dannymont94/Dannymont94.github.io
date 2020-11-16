@@ -9,10 +9,10 @@ function Portfolio() {
       link: 'https://stark-brushlands-99590.herokuapp.com/'
     },
     {
-      name: 'Minnow',
-      class: 'minnow',
-      tools: 'Node, Express, Handlebars, MySQL',
-      link: 'https://nameless-river-82781.herokuapp.com/login'
+      name: 'Food Festival',
+      class: 'food-festival',
+      tools: 'HTML, CSS, JS',
+      link: 'https://dannymont94.github.io/food-festival/'
     },
     {
       name: 'Nomadica',
@@ -33,10 +33,10 @@ function Portfolio() {
       link: 'https://dannymont94.github.io/gaming-survey/'
     },
     {
-      name: 'Pizza Hunt',
-      class: 'pizza-hunt',
-      tools: 'MongoDB, Express, Node',
-      link: 'https://sheltered-shelf-68669.herokuapp.com/'
+      name: 'Minnow',
+      class: 'minnow',
+      tools: 'Node, Express, Handlebars, MySQL',
+      link: 'https://nameless-river-82781.herokuapp.com/login'
     }
   ]
 
