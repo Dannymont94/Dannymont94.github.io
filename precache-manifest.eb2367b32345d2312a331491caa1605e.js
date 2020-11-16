@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b2ba5bb1212ee2fc6f1b89694c15d99d",
+    "revision": "a3c04b6bf8cfe2320378e68bd4bf68f3",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "3541b879834ec53fad87",
-    "url": "/react-portfolio/static/css/main.262708ba.chunk.css"
+    "revision": "8aef0fd723ebc42e181d",
+    "url": "/react-portfolio/static/css/main.f3312d30.chunk.css"
   },
   {
-    "revision": "2b4c1b1ddd816548a162",
-    "url": "/react-portfolio/static/js/2.c5f5d2bb.chunk.js"
+    "revision": "36689ca31d253e3146e0",
+    "url": "/react-portfolio/static/js/2.087881cd.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/react-portfolio/static/js/2.c5f5d2bb.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.087881cd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3541b879834ec53fad87",
-    "url": "/react-portfolio/static/js/main.df32953f.chunk.js"
+    "revision": "8aef0fd723ebc42e181d",
+    "url": "/react-portfolio/static/js/main.19b711f7.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -26,14 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "19b652cc26b3cfe03400cfbcc01d5e82",
     "url": "/react-portfolio/static/media/about-me.19b652cc.jpg"
-  },
-  {
-    "revision": "d477a750f3563b1db90aaea4c565d71f",
-    "url": "/react-portfolio/static/media/code-quiz.d477a750.jpg"
-  },
-  {
-    "revision": "a029f82f57e64629981b2eeaa399b285",
-    "url": "/react-portfolio/static/media/contact-me.a029f82f.jpg"
   },
   {
     "revision": "43140d3df7d4704977f7f83e9f35caff",
@@ -58,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6fa5a2255a713dadacdd74954bd887b6",
     "url": "/react-portfolio/static/media/resume.6fa5a225.jpg"
+  },
+  {
+    "revision": "1e2de7a6343bb1719a9620bd88060087",
+    "url": "/react-portfolio/static/media/tv-tracker.1e2de7a6.jpg"
   },
   {
     "revision": "a12989f2cfcc84533837f3fe6f701863",
