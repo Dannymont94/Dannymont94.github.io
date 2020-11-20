@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.94894879.chunk.css",
-    "main.js": "/static/js/main.ea7b2546.chunk.js",
-    "main.js.map": "/static/js/main.ea7b2546.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e312f208.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
-    "static/js/2.087881cd.chunk.js": "/static/js/2.087881cd.chunk.js",
-    "static/js/2.087881cd.chunk.js.map": "/static/js/2.087881cd.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.7ad64cffe69d14259fdc1f60f5909fc9.js": "/precache-manifest.7ad64cffe69d14259fdc1f60f5909fc9.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.94894879.chunk.css.map": "/static/css/main.94894879.chunk.css.map",
-    "static/js/2.087881cd.chunk.js.LICENSE.txt": "/static/js/2.087881cd.chunk.js.LICENSE.txt",
-    "static/media/about-me.jpg": "/static/media/about-me.19b652cc.jpg",
-    "static/media/index.css": "/static/media/weather-dashboard.a12989f2.jpg",
-    "static/media/resume.jpg": "/static/media/resume.6fa5a225.jpg",
-    "static/media/work.jpg": "/static/media/work.a7cfca37.jpg"
+    "main.css": "/react-portfolio/static/css/main.6695b25a.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.b6fc29d6.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.b6fc29d6.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
+    "static/js/2.087881cd.chunk.js": "/react-portfolio/static/js/2.087881cd.chunk.js",
+    "static/js/2.087881cd.chunk.js.map": "/react-portfolio/static/js/2.087881cd.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.399f25e1561982234ba14b9bd6ad7a3e.js": "/react-portfolio/precache-manifest.399f25e1561982234ba14b9bd6ad7a3e.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.6695b25a.chunk.css.map": "/react-portfolio/static/css/main.6695b25a.chunk.css.map",
+    "static/js/2.087881cd.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.087881cd.chunk.js.LICENSE.txt",
+    "static/media/about-me.jpg": "/react-portfolio/static/media/about-me.19b652cc.jpg",
+    "static/media/index.css": "/react-portfolio/static/media/weather-dashboard.a12989f2.jpg",
+    "static/media/resume.jpg": "/react-portfolio/static/media/resume.6fa5a225.jpg",
+    "static/media/work.jpg": "/react-portfolio/static/media/work.a7cfca37.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e312f208.js",
+    "static/js/runtime-main.213b1880.js",
     "static/js/2.087881cd.chunk.js",
-    "static/css/main.94894879.chunk.css",
-    "static/js/main.ea7b2546.chunk.js"
+    "static/css/main.6695b25a.chunk.css",
+    "static/js/main.b6fc29d6.chunk.js"
   ]
 }
