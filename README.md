@@ -10,7 +10,7 @@ My portfolio containing a photo of me, a short description of me, a collection o
 * [Questions](#questions)
 
 ## Deployment
-View my [deployed portfolio here](https://dannymont94.github.io).
+View my [deployed portfolio here](https://dannymont94.github.io/react-portfolio/).
 
 ## Screenshots
 ![Portfolio](https://user-images.githubusercontent.com/65088117/96284773-11a8d180-0fac-11eb-9b90-9acd6096a98d.png)
