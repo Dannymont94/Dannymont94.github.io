@@ -48,7 +48,7 @@ function Portfolio() {
       </div>
       <div className="projects">
         {projects.map((project, index) => (
-          <a className={`project ${project.class}`} href={project.link} key={index}>
+          <a className={`project ${project.class}`} href={project.link} target="_blank" rel="noopener noreferrer" key={index}>
             <div className="project-description">
               <h3 className="project-name">{project.name}</h3>
               <p className="project-tools">{project.tools}</p>
