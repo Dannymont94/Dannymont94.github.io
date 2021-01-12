@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.94894879.chunk.css",
+    "main.js": "/static/js/main.e8e3c95a.chunk.js",
+    "main.js.map": "/static/js/main.e8e3c95a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e312f208.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
+    "static/js/2.087881cd.chunk.js": "/static/js/2.087881cd.chunk.js",
+    "static/js/2.087881cd.chunk.js.map": "/static/js/2.087881cd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7afa4a4ca90ed394e2f95629f74a00bc.js": "/precache-manifest.7afa4a4ca90ed394e2f95629f74a00bc.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.94894879.chunk.css.map": "/static/css/main.94894879.chunk.css.map",
+    "static/js/2.087881cd.chunk.js.LICENSE.txt": "/static/js/2.087881cd.chunk.js.LICENSE.txt",
+    "static/media/about-me.jpg": "/static/media/about-me.19b652cc.jpg",
+    "static/media/index.css": "/static/media/weather-dashboard.a12989f2.jpg",
+    "static/media/resume.jpg": "/static/media/resume.6fa5a225.jpg",
+    "static/media/work.jpg": "/static/media/work.a7cfca37.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e312f208.js",
+    "static/js/2.087881cd.chunk.js",
+    "static/css/main.94894879.chunk.css",
+    "static/js/main.e8e3c95a.chunk.js"
+  ]
+}
